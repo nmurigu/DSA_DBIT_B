@@ -12,7 +12,7 @@ print(type(KES))
 user_name = "John"
 print(type(user_name))
 
-# array/list
+# list
 nums = [1,2,3,4,5]
 print(type(nums))
 
