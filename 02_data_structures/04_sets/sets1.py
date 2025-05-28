@@ -2,6 +2,7 @@ my_set = {1, 2, 3, 4, 5}
 
 #use set(), not {}
 empty_set = set()
+print(type(empty_set))
 print(type(my_set))
 
 print(f"  my_set: {my_set}")
@@ -16,8 +17,8 @@ print(f"  After adding 5: {my_set}")
 
 
 # Error if element not found
-my_set.remove(112)
-print(f"  After removing 112: {my_set}")
+# my_set.remove(112)
+# print(f"  After removing 112: {my_set}")
 
 # No error if element not found
 my_set.discard(112)

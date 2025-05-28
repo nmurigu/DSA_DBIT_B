@@ -13,8 +13,10 @@ print(f" Name: {student['name']}")           # Alice
 print(f" Age: {student.get('age')}")         # 20
 print(f" GPA: {student.get('gpa', 'N/A')}")  # Key not found, returns 'N/A'
 
-# Updating and Adding Values
+# Updating
 student["age"] = 21
+
+# Adding a new Key and Value
 student["major"] = "Computer Science"
 
 print(f" Updated student: {student}")
